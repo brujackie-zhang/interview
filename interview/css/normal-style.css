@@ -1,0 +1,41 @@
+*{
+	margin:0;
+	padding:0;
+}
+h2{
+	font-family:"宋体";
+	margin-bottom: 10px;
+}
+.header{
+	font-size:20px;
+	font-weight:normal;
+	color:#BBB9BB;
+}
+ul li{
+	list-style: none;
+	margin-left: 35px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 17px;
+}
+ul li span,input{
+	float:right;
+}
+ul li input{
+	font-size: 17px;
+	font-weight: bold;
+	text-align: right;
+	border:none;
+	outline: none;
+}
+#left_nav{
+	float:left;
+	margin-right:30px;
+}
+#right_nav{
+	float:left;
+}
+.wrap{
+	margin:50px auto;
+	width: 800px;
+}

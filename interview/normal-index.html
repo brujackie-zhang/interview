@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Date Discount</title>
+	<link rel="stylesheet" type="text/css" href="./css/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="./css/normal-style.css">
+	<script type="text/javascript" src="./external/jquery/jquery.js"></script>
+	<script type="text/javascript" src="./js/jquery-ui.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<div id="left_nav">
+			<h2>Step 2:Select Early Payment Date<br/><span class="header">Select different dates to see different discount rates.</span></h2>
+			<div id="left_content">
+				<ul>
+					<li><label>Early Payment Date</label><input type="text" id="current_date" value="9/5/2016" readonly="readonly"/></li>
+					<li><label>Discount Percent</label><span>1.207%</span></li>
+					<li><label>Discount Amount</label><span>$842.65</span></li>
+				</ul>
+			</div>
+		</div>
+		<div id="right_nav"></div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#right_nav").datepicker({
+				altField:"#current_date",
+				altFormat:"m/d/yy"
+			});
+		});
+	</script>
+</body>
+</html>

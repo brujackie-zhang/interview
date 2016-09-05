@@ -1,0 +1,42 @@
+*{
+	margin:0;
+	padding:0;
+}
+h2{
+	font-family:"宋体";
+	margin-bottom: 2%;
+}
+.header{
+	font-size:20px;
+	font-weight:normal;
+	color:#BBB9BB;
+}
+.wrap{
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	margin:5% auto;
+}
+#left_nav{
+	margin-right:2%;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+}
+#left_content ul li{
+	list-style-type: none;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	margin-left:10%;
+	margin-bottom: 2%;
+	font-size: 17px;
+	font-weight: bold;
+}
+#current_date{
+	font-weight: bold;
+	font-size: 17px;
+	text-align: right;
+	border:none;
+	outline:none;
+}
